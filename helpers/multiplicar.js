@@ -10,7 +10,7 @@ const crearArchivo = async( base, l = false, h = 10 ) => {
         let consola = '';
 
         for(let i = 1; i <= h; i++) {
-            salida = `${base} x ${ i } = ${ base * i}\n`;
+            salida += `${base} x ${ i } = ${ base * i}\n`;
             consola += `${base} ${ 'x'.red} ${ i } ${ '='.red} ${ base * i}\n`;
         }
 
